@@ -1,0 +1,14 @@
+<h1>Weather#index</h1>
+<p>Find me in app/views/weather/index.html.erb</p>
+
+<%= form_with local: true do |form| %>
+ 
+  <p>
+    <%= form.label :text %><br>
+    <%= form.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
